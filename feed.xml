@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    
+    <title>cyberwr3nch@damnedsec</title>
+    
+    
+    <link></link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>SQLMap Command Reference</title>
+        <description>
+          References for SQLMap - 
+          SQLMap # attacking parameters in GET request sqlmap -u &quot;http://vuln.com/id=1&amp;amp;str=a&quot; # attacking parameters in POST request sqlmap -u &quot;http://vulnpost.com/&quot; --data=&quot;user_name=user&amp;amp;password=password&amp;amp;Submit_button=Submit&quot; # attacking against a specific parame sqlmap -u &quot;http://vulnpost.com/&quot; --data=&quot;user_name=user&amp;amp;password=password&amp;amp;Submit_button=Submit&quot; -p &quot;id&quot; # attacking with default options sqlmap -u &quot;http://vuln.com/id=1&amp;amp;str=a&quot; --batch # attacking on a session; after loggin in sqlmap...
+        </description>
+        <pubDate>Sat, 04 Apr 2020 00:00:00 +0530</pubDate>
+        <link>/sqlmap/</link>
+        <guid isPermaLink="true">/sqlmap/</guid>
+      </item>
+    
+  </channel>
+</rss>
