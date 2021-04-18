@@ -1,24 +1,65 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://cyberwr3nch.github.io/</id>
+  <title>DAMNEDSEC</title>
+  <subtitle>Another information security blogs hoping to help from beginners to pros</subtitle>
+  <updated>2021-04-19T00:22:28+08:00</updated>
+  <author>
+    <name>Dhanesh Sivasamy</name>
+    <uri>https://cyberwr3nch.github.io/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="https://cyberwr3nch.github.io/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="en-US"
+    href="https://cyberwr3nch.github.io/"/>
+  <generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator>
+  <rights> © 2021 Dhanesh Sivasamy </rights>
+  <icon>/assets/img/favicons/favicon.ico</icon>
+  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>SQLMap Command Reference</title>
+    <link href="https://cyberwr3nch.github.io/sqlmap/" rel="alternate" type="text/html" title="SQLMap Command Reference" />
+    <published>2020-04-05T02:04:19+08:00</published>
+  
+    <updated>2020-04-05T02:04:19+08:00</updated>
+  
+    <id>https://cyberwr3nch.github.io/sqlmap/</id>
+    <content src="https://cyberwr3nch.github.io/sqlmap/" />
+    <author>
+      <name>Dhanesh Sivasamy</name>
+    </author>
+
+  
     
-    <title>cyberwr3nch@damnedsec</title>
+    <category term="tools" />
     
+    <category term="syntax" />
     
-    <link></link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>SQLMap Command Reference</title>
-        <description>
-          References for SQLMap - 
-          SQLMap # attacking parameters in GET request sqlmap -u &quot;http://vuln.com/id=1&amp;amp;str=a&quot; # attacking parameters in POST request sqlmap -u &quot;http://vulnpost.com/&quot; --data=&quot;user_name=user&amp;amp;password=password&amp;amp;Submit_button=Submit&quot; # attacking against a specific parame sqlmap -u &quot;http://vulnpost.com/&quot; --data=&quot;user_name=user&amp;amp;password=password&amp;amp;Submit_button=Submit&quot; -p &quot;id&quot; # attacking with default options sqlmap -u &quot;http://vuln.com/id=1&amp;amp;str=a&quot; --batch # attacking on a session; after loggin in sqlmap...
-        </description>
-        <pubDate>Sat, 04 Apr 2020 00:00:00 +0530</pubDate>
-        <link>/sqlmap/</link>
-        <guid isPermaLink="true">/sqlmap/</guid>
-      </item>
-    
-  </channel>
-</rss>
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      SQLMap
+
+Introduction
+
+
+  Sqlmap is an open source penetration testing tool that automates the process of detecting and exploiting SQL injection flaws and taking over of database servers
+  It comes with a powerful detection engine, many niche features for the ultimate penetration tester and a broad range of switches lasting from database fingerprinting, over data fetching from the database, to a...
+    </summary>
+  
+
+  </entry>
+
+</feed>
+
+

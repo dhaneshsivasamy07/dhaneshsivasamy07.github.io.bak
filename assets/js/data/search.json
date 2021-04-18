@@ -1,0 +1,19 @@
+[
+  
+  {
+    "title": "SQLMap Command Reference",
+    "url": "/sqlmap/",
+    "categories": "tools, syntax",
+    "tags": "sqlmap, pentest, redteam, tools, syntax, cheatsheet",
+    "date": "2020-04-05 02:04:19 +0800",
+    
+
+
+
+
+
+    "snippet": "SQLMapIntroduction  Sqlmap is an open source penetration testing tool that automates the process of detecting and exploiting SQL injection flaws and taking over of database servers  It comes with a powerful detection engine, many niche features for the ultimate penetration tester and a broad rang..."
+  }
+  
+]
+
