@@ -4,7 +4,7 @@
   <id>https://cyberwr3nch.github.io/</id>
   <title>DAMNEDSEC</title>
   <subtitle>Another information security blogs hoping to help from beginners to pros</subtitle>
-  <updated>2021-04-19T00:22:28+08:00</updated>
+  <updated>2021-04-19T23:50:09+08:00</updated>
   <author>
     <name>Dhanesh Sivasamy</name>
     <uri>https://cyberwr3nch.github.io/</uri>
@@ -20,11 +20,54 @@
 
   
   <entry>
+    <title>OTW Narnina Writeup</title>
+    <link href="https://cyberwr3nch.github.io/narnia-otw" rel="alternate" type="text/html" title="OTW Narnina Writeup" />
+    <published>2021-04-18T20:34:19+08:00</published>
+  
+    <updated>2021-04-18T20:34:19+08:00</updated>
+  
+    <id>https://cyberwr3nch.github.io/narnia-otw</id>
+    <content src="https://cyberwr3nch.github.io/narnia-otw" />
+    <author>
+      <name>Dhanesh Sivasamy</name>
+    </author>
+
+  
+    
+    <category term="writeups" />
+    
+    <category term="ctf" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Narnia
+
+
+  This  wargame is for the ones that want to learn basic exploitation.
+  You can see the most common bugs in this game and we’ve tried to make them easy to exploit.
+  You’ll get the source code of each level to make it easier for you to spot the vuln and abuse it.
+  The difficulty of the game is somewhere between Leviathan and Behemoth, but some of the levels could be quite tricky
+  Da...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
     <title>SQLMap Command Reference</title>
     <link href="https://cyberwr3nch.github.io/sqlmap/" rel="alternate" type="text/html" title="SQLMap Command Reference" />
-    <published>2020-04-05T02:04:19+08:00</published>
+    <published>2021-04-04T20:34:19+08:00</published>
   
-    <updated>2020-04-05T02:04:19+08:00</updated>
+    <updated>2021-04-04T20:34:19+08:00</updated>
   
     <id>https://cyberwr3nch.github.io/sqlmap/</id>
     <content src="https://cyberwr3nch.github.io/sqlmap/" />

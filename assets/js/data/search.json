@@ -1,11 +1,26 @@
 [
   
   {
+    "title": "OTW Narnina Writeup",
+    "url": "/narnia-otw",
+    "categories": "writeups, ctf",
+    "tags": "otw, writeup, bufferoverflow",
+    "date": "2021-04-18 20:34:19 +0800",
+    
+
+
+
+
+
+    "snippet": "Narnia  This  wargame is for the ones that want to learn basic exploitation.  You can see the most common bugs in this game and we’ve tried to make them easy to exploit.  You’ll get the source code of each level to make it easier for you to spot the vuln and abuse it.  The difficulty of the game ..."
+  },
+  
+  {
     "title": "SQLMap Command Reference",
     "url": "/sqlmap/",
     "categories": "tools, syntax",
     "tags": "sqlmap, pentest, redteam, tools, syntax, cheatsheet",
-    "date": "2020-04-05 02:04:19 +0800",
+    "date": "2021-04-04 20:34:19 +0800",
     
 
 

